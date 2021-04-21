@@ -1,0 +1,117 @@
+body {
+  box-sizing: content-box;
+  font-size: 15px;
+}
+@font-face {
+  font-family: Lexend Deca;
+  src: url("https://fonts.google.com/specimen/Lexend+Deca");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Big Shoulders Display;
+  src: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+  font-weight: 700;
+}
+@media only screen and (max-width: 375px) {
+  #main_box {
+    border: solid 2px red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+  }
+  .sedans_box {
+    border: solid 2px blue;
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px 30px;
+    align-content: center;
+  }
+  .suvs_box {
+    border: solid 2px blueviolet;
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px 30px;
+  }
+  .luxury_box {
+    border: solid 2px darkorange;
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px 30px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  #main_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-between;
+    text-align: center;
+    height: 350px;
+    padding: 40px 20px;
+    line-height: 25px;
+  }
+  .sedans_box {
+    padding: 30px 5px;
+  }
+  .luxury_box {
+    padding: 30px 5px;
+  }
+  .luxury_box {
+    padding: 30px 5px;
+  }
+  .sedans_box {
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px 30px;
+    align-content: center;
+  }
+  .suvs_box {
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px 30px;
+  }
+  .luxury_box {
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px 30px;
+  }
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca;
+  font-weight: 400;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+}
+
+.btn_1 {
+  color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%);
+  width: 150px;
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+}
+.btn_2 {
+  color: hsl(184, 100%, 22%);
+  background-color: hsl(0, 0%, 95%);
+  width: 150px;
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+}
+.btn_3 {
+  color: hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%);
+  width: 150px;
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+}
