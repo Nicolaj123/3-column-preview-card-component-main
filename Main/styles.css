@@ -13,9 +13,8 @@ body {
   src: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
   font-weight: 700;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   #main_box {
-    border: solid 2px red;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -25,24 +24,24 @@ body {
     align-content: space-between;
   }
   .sedans_box {
-    border: solid 2px blue;
     background-color: hsl(31, 77%, 52%);
     padding: 30px 30px;
     align-content: center;
+    text-align: left;
   }
   .suvs_box {
-    border: solid 2px blueviolet;
     background-color: hsl(184, 100%, 22%);
     padding: 30px 30px;
+    text-align: left
   }
   .luxury_box {
-    border: solid 2px darkorange;
     background-color: hsl(179, 100%, 13%);
-    padding: 30px 30px;
+    padding: 40px 30px;
+    text-align: left
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 376px) {
   #main_box {
     display: flex;
     flex-direction: row;
@@ -56,27 +55,21 @@ body {
     line-height: 25px;
   }
   .sedans_box {
-    padding: 30px 5px;
-  }
-  .luxury_box {
-    padding: 30px 5px;
-  }
-  .luxury_box {
-    padding: 30px 5px;
-  }
-  .sedans_box {
     background-color: hsl(31, 77%, 52%);
     padding: 30px 30px;
-    align-content: center;
+    align-content: left;
   }
   .suvs_box {
     background-color: hsl(184, 100%, 22%);
     padding: 30px 30px;
+    align-content: left;
   }
   .luxury_box {
     background-color: hsl(179, 100%, 13%);
     padding: 30px 30px;
+    align-content: left;
   }
+
 }
 
 p {
