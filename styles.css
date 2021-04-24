@@ -2,17 +2,11 @@ body {
   box-sizing: content-box;
   font-size: 15px;
 }
-@font-face {
-  font-family: "Lexend Deca";
-  src: url("https://fonts.google.com/specimen/Lexend+Deca");
-  font-weight: 400;
-}
 
-@font-face {
-  font-family: "Big Shoulders Display";
-  src: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
-  font-weight: 700;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;700;900&display=swap');
+weight: 700;
+
 @media only screen and (max-width: 376px) {
   #main_box {
     text-align: center;
@@ -82,15 +76,14 @@ p {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Lexend Deca" ;
   font-weight: 400;
-  text-align: left;
 }
 
 h1 {
   color: hsl(0, 0%, 95%);
   text-align: left;
-  font-weight: 700;
   font-family: "Big Shoulders Display";
-  font-stretch: ultra-expanded;
+  font-weight: 700;
+
 }
 
 .btn_1 {
