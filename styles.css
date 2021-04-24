@@ -3,10 +3,6 @@ body {
   font-size: 15px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;700;900&display=swap');
-weight: 700;
-
 @media only screen and (max-width: 376px) {
   #main_box {
     text-align: center;
@@ -33,7 +29,6 @@ weight: 700;
     background-color: hsl(179, 100%, 13%);
     padding: 40px 30px;
     text-align: left;
-
   }
 }
 
