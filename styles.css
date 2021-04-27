@@ -1,45 +1,44 @@
 body {
   box-sizing: content-box;
   font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
 }
 
 @media only screen and (max-width: 376px) {
-  #main_box {
+  #big-box {
     text-align: center;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
     align-content: space-between;
     line-height: 25px;
   }
   .sedans_box {
     background-color: hsl(31, 77%, 52%);
-    padding: 30px 30px;
+    padding: 50px 50px;
     align-content: center;
     text-align: left;
   }
   .suvs_box {
     background-color: hsl(184, 100%, 22%);
-    padding: 30px 30px;
+    padding: 50px 50px;
     text-align: left
   }
   .luxury_box {
     background-color: hsl(179, 100%, 13%);
-    padding: 40px 30px;
+    padding: 50px 50px;
     text-align: left;
   }
 }
 
 @media screen and (min-width: 376px) {
-  #main_box {
+  #big-box {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
-    align-content: space-between;
+    align-content: center;
     height: 100%;
     padding: 40px 20px;
     line-height: 25px;
@@ -69,38 +68,42 @@ body {
 
 p {
   color: hsla(0, 0%, 100%, 0.75);
-  font-family: "Lexend Deca" ;
+  font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
 }
 
 h1 {
   color: hsl(0, 0%, 95%);
   text-align: left;
-  font-family: "Big Shoulders Display";
+  font-family: 'Big Shoulders Display', cursive;
   font-weight: 700;
+}
+
+button {
+  background-color: white;
 
 }
 
-.btn_1 {
+.btn_1 button{
   color: hsl(31, 77%, 52%);
-  background-color: hsl(0, 0%, 95%);
-  width: 150px;
+  border-radius: 25px ;
+  width: 140px;
   height: 45px;
   border-radius: 25px;
   border: none;
 }
-.btn_2 {
+.btn_2 button{
   color: hsl(184, 100%, 22%);
-  background-color: hsl(0, 0%, 95%);
-  width: 150px;
+  border-radius: 25px ;
+  width: 140px;
   height: 45px;
   border-radius: 25px;
   border: none;
 }
-.btn_3 {
+.btn_3 button {
   color: hsl(179, 100%, 13%);
-  background-color: hsl(0, 0%, 95%);
-  width: 150px;
+  border-radius: 25px ;
+  width: 140px;
   height: 45px;
   border-radius: 25px;
   border: none;
